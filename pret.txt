@@ -1,0 +1,15 @@
+itiv a ~ 5/
+itiv e ~ 5 + 2/
+itiv v ~ 0/
+dtivv b ~ 3.1/
+ftbooll d ~ 1/
+tox A ~ "Hello"/
+itiv w ~ 9/
+druck:: a/
+druck:: e/
+druck:: v/
+druck:: b/
+druck:: d/
+druck:: A/
+payman(a < e)^ :: A/ ^
+wie ( 5 ) ^ :: a/ ^
