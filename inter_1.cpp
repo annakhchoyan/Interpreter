@@ -133,10 +133,7 @@ void f_int(int count, std::string str)
 {
 	int t = 0; // փ ոփ ոխ ա կա նի ա նվա ն տ ա ռերի քա նա կը
 	std::string value = ""; // փ ոփ ոխ ա կա նի ա րժեքը
-	std::string value1 = "";
 	std::string name = ""; // փ ոփ ոխ ա կա նի ա նունը
-	std::string name1 = "";
-	char log = 0;
 	if(str[count] != ' ')
 	{
 		std::cout << "error1: from f_int" << std::endl;
@@ -560,6 +557,7 @@ void f_if(int count, std::string str)
 	if(str[count] != '(')
 	{
 		std::cout << "error1: from f_if" << std::endl;
+		exit(0);
 	}
 	++count;
 	while(str[count] == ' ')
