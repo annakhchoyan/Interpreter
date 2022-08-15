@@ -11,9 +11,10 @@ void f_string(int, std::string);
 int f_cout(int, std::string);
 void f_if(int, std::string);
 void f_while(int, std::string);
-bool cmp_si(std::string,char,std::string);
-int math_oper(int, int, char );
+bool cmp_si(std::string, char, std::string);
+int math_oper(int, int, char);
 using  namespace std;
+
 std::map <std::string, int> map_int;
 std::map <std::string, std::string> map_double;
 std::map <std::string, std::string> map_bool;
@@ -24,6 +25,7 @@ int main()
 	char data[1000];
 	std::ifstream ifout;
 	ifout.open("pret.txt");
+	
 	while (!ifout.eof())
 	{
 		ifout.getline(data, 1000);
@@ -42,6 +44,7 @@ void oper_(std::string str)
 	std::string strw = "wie";
 	int j = 0;
 	int count = 0;
+	
 	for (int i = 0; i < str.length(); ++i)
 	{
 		while (str[i] == stri[j])
